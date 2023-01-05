@@ -1,0 +1,1 @@
+const btnStart = document.querySelector('.')

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3>Stopwatch</h3>
+      <div class="timer">
+        <div class="effects"></div>
+        <p class="hours">00</p>
+        <span>:</span>
+        <p class="minutes">00</p>
+        <span>:</span>
+        <p class="seconds">00</p>
+        <span>.</span>
+        <p class="milis">00</p>
+      </div>
+      <div class="btn">
+        <button class="btn-start">
+          <i class="fa-solid fa-play start"></i>
+        </button>
+        <button class="btn-stop" disabled>
+          <i class="fa-solid fa-stop stop"></i>
+        </button>
+        <button class="btn-reset">
+          <i class="fa-solid fa-rotate-right reset"></i>
+        </button>
+      </div>
+      <div class="history">
+        <!-- <div class="lap">
+          <div class="number-lap">
+            <p>1</p>
+            <span>Lap</span>
+          </div>
+          <div class="timer-lap">
+            <p>01</p>
+            <span>:</span>
+            <p>00</p>
+            <span>:</span>
+            <p>00</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
